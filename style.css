@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    background: rgb(53, 128, 57);
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#container{
+    width: 1200px;
+    height: auto;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#title {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 1.8rem;
+}
+
+#letter-box{
+    width: 800px;
+    height: 250px;
+    margin: 15px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.letter{
+    width: auto;
+    height: auto;
+    font-size: 2rem;
+    padding: 10px;
+    margin: 8px 15px;
+    border: 4px solid #656fef;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.letter:hover{
+    color: rgb(53, 128, 57) ;
+    background: #fff;
+}
+
+#category{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+#guess{
+    display: block;
+    width: auto;
+    height: 40px;
+    font-size: 50px;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    margin-top: 8px;
+}
+
+.hang-man-img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.use{
+    pointer-events: none;
+    background: black;
+    color: #fff;
+}
